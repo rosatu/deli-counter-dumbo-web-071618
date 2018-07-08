@@ -4,9 +4,9 @@ def line(deli)
   while deli.length > 0 
    deli.each_with_index do |name, i|
    puts "The line is currently: #{i + 1}. #{name}"
-  else
-   puts "The line is currently empty."
-  end  
+   end
+   else
+     puts "The line is currently empty."
   end  
 end
 
