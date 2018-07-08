@@ -2,12 +2,11 @@ katz_deli = []
 
 def line(deli)
   new_line = []
-  i = 0
  if deli.length == 0
     puts "The line is currently empty." 
  else
     new_line.each.with_index(0) do |name, index|
-      line_method_array.push("#{index}. #{name}")    
+      new_line.push("#{index}. #{name}")    
   end
    puts "The line is: #{deli.join(" ")}"
   end 
