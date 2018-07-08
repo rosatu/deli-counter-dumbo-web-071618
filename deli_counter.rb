@@ -4,6 +4,7 @@ def line(deli)
   new_line = []
  if deli.length == 0
     puts "The line is currently empty." 
+ end
  else
     new_line.each.with_index(0) do |name, index|
       new_line.push("#{index}. #{name}")    
