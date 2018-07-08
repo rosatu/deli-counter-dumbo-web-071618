@@ -2,6 +2,7 @@ katz_deli = []
 
 def line(deli)
   new_line = []
+  i = 0
   if i < deli.length 
    deli.each.with_index do |name, i| 
      new_line << "The line is currently: #{i + 1}. #{name}"
