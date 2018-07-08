@@ -6,7 +6,7 @@ def line(deli)
   if i < deli.length 
    deli.each.with_index do |name, i| 
      new_line << "The line is currently: #{i + 1}. #{name}"
-     new_line
+     new_line.join
   end
   else
     puts "The line is currently empty."
