@@ -5,10 +5,7 @@ def line(deli)
   while i < deli.length 
    deli.each_with_index do |name, i|
    puts "The line is currently: #{i + 1}. #{name}"
-   i =+ 1
-   end
-   while deli.length == 0
-    puts "The line is currently empty."
+   i = i + 1
   end  
 end
 
