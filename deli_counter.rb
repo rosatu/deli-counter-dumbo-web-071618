@@ -8,7 +8,7 @@ def line(deli)
    i = i + 1
   end
   else
-    puts "There is nobody in line"
+    puts "The line is currently empty."
   end
 end
 
