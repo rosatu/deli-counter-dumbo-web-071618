@@ -4,9 +4,11 @@ def line(deli)
   i = 0
   while i < deli.length 
    deli.each_with_index do |name, i|
-   "The line is currently: #{i + 1}. #{name}"
+   puts "The line is currently: #{i + 1}. #{name}"
    i = i + 1
-  end  
+  else
+    puts "There is nobody in line"
+  end
 end
 
 def take_a_number(katz_deli, name)
