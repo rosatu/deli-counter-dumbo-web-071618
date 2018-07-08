@@ -4,7 +4,7 @@ def line(deli)
   deli[i] = 0
   while i < deli.length 
    deli.each_with_index do |deli[i], i|
-   puts ("The line is currently: #{i + 1}. #{deli[i]}")
+   "The line is currently: #{i + 1}. #{deli[i]}"
    deli[i] = deli[i + 1]
   end  
 end
