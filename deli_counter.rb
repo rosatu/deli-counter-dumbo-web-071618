@@ -9,7 +9,7 @@ def line(deli)
     new_line.each.with_index(0) do |name, index|
       new_line.push("#{index}. #{name}")    
   end
-   puts "The line is: #{deli.join(" ")}"
+   puts "The line is currently: #{new_line.join(" ")}"
 end 
 
 def take_a_number(katz_deli, name)
