@@ -6,7 +6,7 @@ def line(deli)
     puts "The line is currently empty." 
  end
  else
-    new_line.each.with_index(0) do |name, index|
+   deli.each.with_index(0) do |name, index|
       new_line.push("#{index}. #{name}")    
   end
    puts "The line is currently: #{new_line.join(" ")}"
