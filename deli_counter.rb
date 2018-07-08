@@ -6,6 +6,7 @@ def line(deli)
    deli.each_with_index do |name, i|
    puts "The line is currently: #{i + 1}. #{name}"
    i = i + 1
+  end
   else
     puts "There is nobody in line"
   end
