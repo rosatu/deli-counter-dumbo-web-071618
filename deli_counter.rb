@@ -8,13 +8,8 @@ def line(deli)
  else
     new_line.each.with_index(0) do |name, index|
       line_method_array.push("#{index}. #{name}")    
-    
-    i < deli.length 
-   deli.each.with_index do |name, i| 
-     new_line << "#{i + 1}. #{name}"
-     new_line.join
   end
-   puts "The line is: #{line_method_array.join(" ")}"
+   puts "The line is: #{deli.join(" ")}"
   end 
    
   
