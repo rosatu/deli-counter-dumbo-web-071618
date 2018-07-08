@@ -9,26 +9,7 @@ def line(deli)
       new_line.push("#{index}. #{name}")    
   end
    puts "The line is: #{deli.join(" ")}"
-  end 
-   
-  
-def line_method(numinline)
-  line_method_array = []
-  if numinline.length == 0
-    puts "The line is currently empty."
-  else
-    line_method_array.each.with_index(0) do |name, index|
-      line_method_array.push("#{index}. #{name}")
-      # push method will push the name into the index 
-    end
-   
-  end
-end
-
-
-
-
-
+end 
 
 def take_a_number(katz_deli, name)
  katz_deli.push(name)
