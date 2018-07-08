@@ -2,7 +2,7 @@ katz_deli = []
 
 def line(deli)
   i = 0
-  while i < deli.length 
+  if i < deli.length 
    deli.each_with_index do |name, i|
    puts "The line is currently: #{i + 1}. #{name}"
    i = i + 1
