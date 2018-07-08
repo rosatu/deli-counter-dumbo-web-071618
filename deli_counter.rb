@@ -1,14 +1,15 @@
 katz_deli = []
 
 def line(deli)
-  i = 0
+  new_line = []
   if i < deli.length 
    deli.each.with_index do |name, i| 
-     puts "The line is currently: #{i + 1}. #{name}"
+     new_line << "The line is currently: #{i + 1}. #{name}"
   end
   else
     puts "The line is currently empty."
   end
+  new_line
 end  
 
 def take_a_number(katz_deli, name)
